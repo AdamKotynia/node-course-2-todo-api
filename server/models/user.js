@@ -71,7 +71,7 @@ UserSchema.statics.findByToken = function(token) {
         'tokens.access': 'auth'
     })
 };
-console.log('lol');
+
 UserSchema.statics.findByCredentials = function(email, password) {
     var User = this;
 
